@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+int main() 
+{
+    int i,j,a[3][3];
+    int n=0;
+    printf("ENTER THE ELEMENTS OF THE ARRAY TO CHECK WHTEHER IT IS HOLLOW OR NOT\n:");
+    for(i=0;i<3;i++)
+     for(j=0;j<3;j++)
+       {
+           printf("%d%d is:",i,j);
+           scanf("%d",&a[i][j]);
+           printf("\n");
+       }
+      printf("THE ELEMENTS GIVEN IN THE ARRAY IS\n");
+       for(i=0;i<3;i++)
+     {
+        for(j=0;j<3;j++)
+        printf("%d  ",a[i][j]);
+        printf("\n");
+     }
+   for(i=0;i<3;i++)
+   for(j=0;j<3;j++)
+   {
+       if(i==j)
+       {
+           if(a[i][j]==0)
+           n++;
+       }
+   }
+   
+   if(n==3)
+   printf("\n\nthe given matrix is an hollow matrix");
+   else
+   printf("the matriix is not hollow matrix:");
+   
+    return 0;
+}
