@@ -1,0 +1,18 @@
+# Hollow-matrix-
+to check whether a program is an hollow matrix
+
+ENTER THE ELEMENTS OF THE ARRAY TO CHECK WHTEHER IT IS HOLLOW OR NOT
+:00 is:0
+01 is:2
+02 is:1
+10 is:3
+11 is:0
+12 is:1
+20 is:2
+21 is:0
+22 is:2
+THE ELEMENTS GIEN IN THE ARRAY IS
+0  2  1  
+3  0  1  
+2  0  2  
+the matriix is not hollow matrix:
